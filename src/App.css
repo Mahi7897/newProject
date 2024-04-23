@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+   background:url('https://media.istockphoto.com/id/1474781987/photo/summer-sand-and-tropical-sea-background-with-abstract-stone-podium.webp?b=1&s=170667a&w=0&k=20&c=dU49XuxceQ6A88D-F91QlQ-JsdV5JyJiJ4TEjIxno48=');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.text-center{
+    font-size: 30px;
+    -webkit-text-fill-color:blue;
+    font-weight: 700;
+}
+
+/* weather css start.......*/
+
+.Cardcontainer {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 15px;
+    padding: 20px;
+    background-color:black; /* Set the background color to be transparent */
+    color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    margin-top:25px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.scroll{
+    width: 100%;
+    height: 80vh;
+    overflow-y:scroll;
+    border-radius: 5px;
+}
+
+/* weather css............*/
+
+.cityname{
+font-size:25px;
+font-weight: 700;
+}
+.sunImg{
+    font-size: 55px;
+}
+hr{
+    border: 2px solid red;
+}
+.tempDiv{
+    display: inline-block;
+}
+#description{
+    margin-top: 20px;
+margin-left: -225px;
+}
